@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face 
+        {
+            font-family: "Shit";
+            src: url("love_larry/love\ larry\ ttf.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+
+            /*Ficar atento se o tipo de fonte e compativel com o navegador, por isso e recomendavel
+            carregar os tipos disponiveis basta por outra , url() format() */
+
+            /*tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Afdvanced Typography)
+            - svg*/
+        }
+
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1
+        {
+            font-family: 'Shit', Times;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Letra de Blue Pill</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, quidem. Dolorem soluta repellat officiis numquam, voluptatum ratione architecto aliquid delectus sit laudantium reiciendis libero! Atque ipsum minus neque quam suscipit!</p>
+</body>
+</html>

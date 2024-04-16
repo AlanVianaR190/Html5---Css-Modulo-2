@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*Sempre por ISTO!*/
+
+body/*Corpo da pagina*/
+{
+    background-color:goldenrod;/*Cor de fundo*/
+    font-family: Arial, Helvetica, sans-serif;/*Fonte da pagina*/
+    font-size: 18px;/*Tamanho da fonte*/
+}
+h1/*Titulos*/
+{
+    color: mediumblue;
+    background-color: dodgerblue;
+}
+h2/*Sub titulos*/
+{
+    color: mediumvioletred;
+}
+p/*Paragrafos*/
+{
+    text-align: justify;
+}
